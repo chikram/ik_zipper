@@ -1,13 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+body {
+  background: #f4f2f7;
+}
+.b:hover {
+  background-color: rgb(85, 171, 197);
+}
+.nav-link:hover {
+  background-color: rgb(85, 171, 197);
+}
+@media (min-width: 1000px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Reset margin top */
+    transform: translateX(-50%); /* Center the dropdown menu horizontally */
+    left: 50%; /* Position it relative to the parent */
+  }
+}
+.plus-icon {
+  font-size: 18px; /* Adjust the size as needed */
+  color: rgb(8, 8, 8);
+  font-weight: bolder;
+  padding-left: 8px;
+}
+.carousel-item {
+  height: 50%;
+}
+.carousel-item img {
+  height: 600px;
+}
+.card-img-top:hover {
+  transform: scale(0.5);
+}
+.card-img-top {
+  cursor: pointer;
+}
+.card-title {
+  color: rgb(204, 13, 13);
+}
+.card {
+  border-radius: 20px;
 }
