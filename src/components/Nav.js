@@ -57,7 +57,7 @@ const Nav = () => {
                                                             height="50"
                                                             className="p-2"
                                                         />
-                                                        <span className="mb-2 b">Shoes</span>
+                                                        <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
                                             </a>
@@ -71,7 +71,7 @@ const Nav = () => {
                                                             height="50"
                                                             className="p-2"
                                                         />
-                                                        <span className="mb-2 b">Shoes</span>
+                                                        <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
                                             </a>
@@ -85,7 +85,7 @@ const Nav = () => {
                                                             height="50"
                                                             className="p-2"
                                                         />
-                                                        <span className="mb-2 b">Shoes</span>
+                                                        <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
                                             </a>
@@ -99,68 +99,7 @@ const Nav = () => {
                                                             height="50"
                                                             className="p-2"
                                                         />
-                                                        <span className="mb-2 b">Shoes</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div className="col-md-8 col-lg-4 mb-4 mb-lg-0">
-                                            <p className="text-uppercase font-weight-bold cd">
-                                                Brand Name
-                                            </p>
-                                            <a href="" className="text-muted text-decoration-none">
-                                                <div className="row mb-2">
-                                                    <div className="col">
-                                                        <img
-                                                            src="sho.PNG"
-                                                            alt=""
-                                                            width="50"
-                                                            height="50"
-                                                            className="p-2"
-                                                        />
-                                                        <span className="mb-2 b">Shoes</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="" className="text-muted text-decoration-none">
-                                                <div className="row mb-2">
-                                                    <div className="col">
-                                                        <img
-                                                            src="sho.PNG"
-                                                            alt=""
-                                                            width="50"
-                                                            height="50"
-                                                            className="p-2"
-                                                        />
-                                                        <span className="mb-2 b">Shoes</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="" className="text-muted text-decoration-none">
-                                                <div className="row mb-2">
-                                                    <div className="col">
-                                                        <img
-                                                            src="sho.PNG"
-                                                            alt=""
-                                                            width="50"
-                                                            height="50"
-                                                            className="p-2"
-                                                        />
-                                                        <span className="mb-2 b">Shoes</span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <a href="" className="text-muted text-decoration-none">
-                                                <div className="row mb-2">
-                                                    <div className="col">
-                                                        <img
-                                                            src="sho.PNG"
-                                                            alt=""
-                                                            width="50"
-                                                            height="50"
-                                                            className="p-2"
-                                                        />
-                                                        <span className="mb-2 b">Shoes</span>
+                                                        <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
                                             </a>
@@ -179,7 +118,7 @@ const Nav = () => {
                                                             height="50"
                                                             className="p-2"
                                                         />
-                                                        <span className="mb-2 b">Shoes</span>
+                                                        <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
                                             </a>
@@ -193,7 +132,7 @@ const Nav = () => {
                                                             height="50"
                                                             className="p-2"
                                                         />
-                                                        <span className="mb-2 b">Shoes</span>
+                                                        <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
                                             </a>
@@ -207,7 +146,7 @@ const Nav = () => {
                                                             height="50"
                                                             className="p-2"
                                                         />
-                                                        <span className="mb-2 b">Shoes</span>
+                                                        <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
                                             </a>
@@ -221,7 +160,68 @@ const Nav = () => {
                                                             height="50"
                                                             className="p-2"
                                                         />
-                                                        <span className="mb-2 b">Shoes</span>
+                                                        <span className="mb-2 b ">Shoes</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div className="col-md-8 col-lg-4 mb-4 mb-lg-0">
+                                            <p className="text-uppercase font-weight-bold cd">
+                                                Brand Name
+                                            </p>
+                                            <a href="" className="text-muted text-decoration-none">
+                                                <div className="row mb-2">
+                                                    <div className="col">
+                                                        <img
+                                                            src="sho.PNG"
+                                                            alt=""
+                                                            width="50"
+                                                            height="50"
+                                                            className="p-2"
+                                                        />
+                                                        <span className="mb-2 b ">Shoes</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="" className="text-muted text-decoration-none">
+                                                <div className="row mb-2">
+                                                    <div className="col">
+                                                        <img
+                                                            src="sho.PNG"
+                                                            alt=""
+                                                            width="50"
+                                                            height="50"
+                                                            className="p-2"
+                                                        />
+                                                        <span className="mb-2 b ">Shoes</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="" className="text-muted text-decoration-none">
+                                                <div className="row mb-2">
+                                                    <div className="col">
+                                                        <img
+                                                            src="sho.PNG"
+                                                            alt=""
+                                                            width="50"
+                                                            height="50"
+                                                            className="p-2"
+                                                        />
+                                                        <span className="mb-2 b ">Shoes</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="" className="text-muted text-decoration-none">
+                                                <div className="row mb-2">
+                                                    <div className="col">
+                                                        <img
+                                                            src="sho.PNG"
+                                                            alt=""
+                                                            width="50"
+                                                            height="50"
+                                                            className="p-2"
+                                                        />
+                                                        <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
                                             </a>
@@ -230,13 +230,13 @@ const Nav = () => {
                                 </div>
                             </div>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item b">
                             <a class="nav-link text-dark " aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item b">
                             <a class="nav-link text-dark" aria-current="page" href="#">About</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item b">
                             <a class="nav-link text-dark" aria-current="page" href="#">Contact</a>
                         </li>
                     </ul>

@@ -17,9 +17,6 @@ body {
 .b:hover {
   background-color: rgb(85, 171, 197);
 }
-.nav-link:hover {
-  background-color: rgb(85, 171, 197);
-}
 @media (min-width: 1000px) {
   .dropdown:hover .dropdown-menu {
     display: block;
