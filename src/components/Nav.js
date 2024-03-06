@@ -24,7 +24,7 @@ const Nav = () => {
                             <a className="navbar-brand text-center fw-bold" href="#">IK <span className='text-danger'>Zipper</span></a>
                         </li>
 
-                        <li className="nav-item dropdown position-static">
+                        <li className="nav-item dropdown position-static b">
                             <a
                                 className="nav-link"
                                 href="#"
@@ -33,7 +33,7 @@ const Nav = () => {
                                 data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
-                                <span className=" text-dark">Our Product</span>
+                                <span className=" text-dark ">Our Product</span>
                                 <span className="plus-icon d-lg-none">&#43;</span>
                             </a>
 
