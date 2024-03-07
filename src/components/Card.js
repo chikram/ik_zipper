@@ -14,9 +14,9 @@ const Card = () => {
           This is a wider card with supporting text below as a natural lead-in
           to additional content. This content is a little bit longer.
         </p>
-        <div class="text-center"> 
-            <button type="button" className="btn btn-warning" >Order Now</button> 
-        </div> 
+        <div class="text-center">
+          <button type="button" className="btn btn-warning" >Order Now</button>
+        </div>
       </div>
     </div>
   );

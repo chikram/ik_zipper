@@ -1,5 +1,5 @@
 import './App.css';
-import Home from './screen/home/home';
+import Home from './screen/home/Home';
 function App() {
   return (
     <div className="App">
