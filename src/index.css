@@ -15,10 +15,13 @@ body {
   background: #f4f2f7;
 }
 .rounded:hover {
-  background-color: rgb(45, 10, 245);
+  background-color: blue;
 }
 .b:hover {
   background-color: rgb(85, 171, 197);
+}
+.btn:hover {
+  background-color: blue;
 }
 @media (min-width: 1000px) {
   .dropdown:hover .dropdown-menu {
