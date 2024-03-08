@@ -242,14 +242,6 @@ const Nav = () => {
                         </li>
                     </ul>
                 </div>
-                <ul class="navbar-nav ml-auto ">
-                    <li class="nav-item pe-2 ">
-                        <a class="nav-link text-dark border border-primary rounded " aria-current="page" href="#">Log In</a>
-                    </li>
-                    <li class="nav-item ps-2">
-                        <a class="nav-link text-light bg-primary rounded" aria-current="page" href="#">Sign Up</a>
-                    </li>
-                </ul>
 
             </div>
 

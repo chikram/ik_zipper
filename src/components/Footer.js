@@ -20,16 +20,16 @@ function Footer() {
 
                                 <ul className="list-unstyled mb-0">
                                     <li>
-                                        <a className="text-body" href="#!">Link 1</a>
+                                        <a className="text-body text-decoration-none" href="#!">Link 1</a>
                                     </li>
                                     <li>
-                                        <a className="text-body" href="#!">Link 2</a>
+                                        <a className="text-body text-decoration-none" href="#!">Link 2</a>
                                     </li>
                                     <li>
-                                        <a className="text-body" href="#!">Link 3</a>
+                                        <a className="text-body text-decoration-none" href="#!">Link 3</a>
                                     </li>
                                     <li>
-                                        <a className="text-body" href="#!">Link 4</a>
+                                        <a className="text-body text-decoration-none" href="#!">Link 4</a>
                                     </li>
                                 </ul>
                             </div>
@@ -39,16 +39,16 @@ function Footer() {
 
                                 <ul className="list-unstyled mb-0">
                                     <li>
-                                        <a className="text-body" href="#!">Link 1</a>
+                                        <a className="text-body text-decoration-none" href="#!">Link 1</a>
                                     </li>
                                     <li>
-                                        <a className="text-body" href="#!">Link 2</a>
+                                        <a className="text-body text-decoration-none" href="#!">Link 2</a>
                                     </li>
                                     <li>
-                                        <a className="text-body" href="#!">Link 3</a>
+                                        <a className="text-body text-decoration-none" href="#!">Link 3</a>
                                     </li>
                                     <li>
-                                        <a className="text-body" href="#!">Link 4</a>
+                                        <a className="text-body text-decoration-none" href="#!">Link 4</a>
                                     </li>
                                 </ul>
                             </div>
@@ -58,16 +58,16 @@ function Footer() {
 
                                 <ul className="list-unstyled mb-0">
                                     <li>
-                                        <a className="text-body" href="#!">Link 1</a>
+                                        <a className="text-body text-decoration-none" href="#!">Link 1</a>
                                     </li>
                                     <li>
-                                        <a className="text-body" href="#!">Link 2</a>
+                                        <a className="text-body text-decoration-none" href="#!">Link 2</a>
                                     </li>
                                     <li>
-                                        <a className="text-body" href="#!">Link 3</a>
+                                        <a className="text-body text-decoration-none" href="#!">Link 3</a>
                                     </li>
                                     <li>
-                                        <a className="text-body" href="#!">Link 4</a>
+                                        <a className="text-body text-decoration-none" href="#!">Link 4</a>
                                     </li>
                                 </ul>
                             </div>
@@ -77,16 +77,16 @@ function Footer() {
 
                                 <ul className="list-unstyled mb-0">
                                     <li>
-                                        <a className="text-body" href="#!">Link 1</a>
+                                        <a className="text-body text-decoration-none" href="#!">Link 1</a>
                                     </li>
                                     <li>
-                                        <a className="text-body" href="#!">Link 2</a>
+                                        <a className="text-body text-decoration-none" href="#!">Link 2</a>
                                     </li>
                                     <li>
-                                        <a className="text-body" href="#!">Link 3</a>
+                                        <a className="text-body text-decoration-none" href="#!">Link 3</a>
                                     </li>
                                     <li>
-                                        <a className="text-body" href="#!">Link 4</a>
+                                        <a className="text-body text-decoration-none" href="#!">Link 4</a>
                                     </li>
                                 </ul>
                             </div>
@@ -97,30 +97,30 @@ function Footer() {
                     <section className="mb-4 mt-5 d-flex flex-row ">
 
                         <a className="btn m-1 border border-dark" href="#!" role="button"
-                        ><FontAwesomeIcon icon={faFacebookF} /></a>
+                        ><FontAwesomeIcon icon={faFacebookF} style={{ color: "blue" }} /></a>
 
 
                         <a className="btn  m-1 border border-dark" href="#!" role="button"
-                        ><FontAwesomeIcon icon={faXTwitter} /></a>
+                        ><FontAwesomeIcon icon={faXTwitter} style={{ color: "gray" }} /></a>
 
 
                         <a className="btn  m-1 border border-dark" href="#!" role="button"
-                        ><FontAwesomeIcon icon={faGoogle} /></a>
+                        ><FontAwesomeIcon icon={faGoogle} style={{ color: "red" }} /></a>
 
 
                         <a className="btn  m-1 border border-dark" href="#!" role="button"
-                        ><FontAwesomeIcon icon={faInstagram} /></a>
+                        ><FontAwesomeIcon icon={faInstagram} style={{ color: "red" }} /></a>
 
 
                         <a className="btn m-1 border border-dark" href="#!" role="button"
-                        ><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                        ><FontAwesomeIcon icon={faLinkedinIn} style={{ color: "blue" }} /></a>
                     </section>
 
                 </div>
 
                 <div className="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
                     © 2022 Copyright:
-                    <a className="text-reset fw-bold" href="/">Ik Zipper</a>
+                    <a className="text-reset fw-bold" href="/">Ik <span className='text-danger'>Zipper</span></a>
                 </div>
 
             </footer>

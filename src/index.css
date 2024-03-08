@@ -18,10 +18,10 @@ body {
   background-color: blue;
 }
 .b:hover {
-  background-color: rgb(85, 171, 197);
+  background-color: rgb(85, 184, 197);
 }
 .btn:hover {
-  background-color: blue;
+  background-color: rgb(119, 0, 255);
 }
 @media (min-width: 1000px) {
   .dropdown:hover .dropdown-menu {
@@ -54,4 +54,25 @@ body {
 }
 .card {
   border-radius: 5px;
+}
+@media (min-width: 403px) and (max-width: 767px) {
+  .center {
+    justify-content: center !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .center {
+    justify-content: center !important;
+  }
+}
+
+@media only screen and (min-width: 322px) and (max-width: 440px) {
+  .container .row .col-8 {
+    justify-content: center;
+  }
+  .container .row .col-8 {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
 }
