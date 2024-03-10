@@ -82,3 +82,18 @@ body {
     margin: 5px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .fs-5 {
+    font-size: 17px !important;
+  }
+}
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+  .fs-5 {
+    font-size: large !important;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+  .fs-5 {
+    font-size: small !important;
+  }
+}
