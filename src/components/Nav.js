@@ -236,11 +236,10 @@ const Nav = () => {
                             <Link class="nav-link text-dark " aria-current="page" to="/about">About Our Product</Link>
                         </li>
                         <li class="nav-item b">
-                            <Link class="nav-link text-dark" aria-current="page" href="#">About</Link>
+                            <Link class="nav-link text-dark" aria-current="page" to="/contact">Contact Us</Link>
                         </li>
-                        <li class="nav-item b">
-                            <Link class="nav-link text-dark" aria-current="page" href="#">Contact</Link>
-                        </li>
+
+
                     </ul>
                 </div>
 
