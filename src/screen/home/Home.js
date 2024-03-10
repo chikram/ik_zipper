@@ -9,14 +9,14 @@ const Home = () => {
         <Carousel />
       </div>
       <div className="container my-5">
-        <div className="row center">
-          <div className="col-8 col-md-6 col-xl-4 col-lg-6  col-xs-12 py-2">
+        <div className="row center mx-auto">
+          <div className="col-8 col-md-6 col-xl-4 col-lg-4  py-2">
             <Card />
           </div>
-          <div className="col-8 col-md-6 col-xl-4 col-lg-6  col-xs-12 py-2">
+          <div className="col-8 col-md-6 col-xl-4 col-lg-4  py-2">
             <Card />
           </div>
-          <div className="col-8 col-md-6 col-xl-4 col-lg-6  col-xs-12 py-2">
+          <div className="col-8 col-md-6 col-xl-4 col-lg-4  py-2">
             <Card />
           </div>
         </div>

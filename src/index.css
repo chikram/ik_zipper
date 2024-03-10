@@ -43,24 +43,10 @@ body {
 .carousel-item img {
   height: 600px;
 }
-.card-img-top:hover {
-  transform: scale(0.5);
-}
-.card-img-top {
-  cursor: pointer;
-}
 .card-title {
   color: rgb(204, 13, 13);
 }
-.card {
-  border-radius: 5px;
-}
 @media (min-width: 403px) and (max-width: 767px) {
-  .center {
-    justify-content: center !important;
-  }
-}
-@media (min-width: 768px) and (max-width: 1200px) {
   .center {
     justify-content: center !important;
   }
