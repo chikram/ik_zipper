@@ -62,3 +62,23 @@ body {
     max-width: 100%;
   }
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .card {
+    width: 18rem !important;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .card {
+    width: 22rem !important;
+  }
+}
+@media screen and (min-width: 322px) and (max-width: 991px) {
+  .icon {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .icon > a {
+    margin: 5px;
+  }
+}

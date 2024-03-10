@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 const Nav = () => {
     return (
 
         <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
 
-            <div className="container-fluid">
+            <div className="container">
 
                 <button
                     className="navbar-toggler px-0"
@@ -22,13 +23,13 @@ const Nav = () => {
 
                     <ul className="navbar-nav ps-lg-2 ">
                         <li className="nav-item">
-                            <a className="navbar-brand text-center fw-bold" href="#">IK <span className='text-danger'>Zipper</span></a>
+                            <Link className="navbar-brand text-center fw-bold" to="/">IK <span className='text-danger'>Zipper</span></Link>
                         </li>
 
                         <li className="nav-item dropdown position-static b">
-                            <a
+                            <Link
                                 className="nav-link"
-                                href="#"
+                                to="/"
                                 id="navbarDropdown"
                                 role="button"
                                 data-bs-toggle="dropdown"
@@ -36,7 +37,7 @@ const Nav = () => {
                             >
                                 <span className=" text-dark ">Our Product</span>
                                 <span className="plus-icon d-lg-none">&#43;</span>
-                            </a>
+                            </Link>
 
                             <div
                                 className="dropdown-menu w-100 mt-0 border-0"
@@ -48,7 +49,7 @@ const Nav = () => {
                                             <p className="text-uppercase font-weight-bold cd">
                                                 Brand Name
                                             </p>
-                                            <a href="" className="text-muted text-decoration-none">
+                                            <Link to="/" className="text-muted text-decoration-none">
                                                 <div className="row mb-2">
                                                     <div className="col">
                                                         <img
@@ -61,8 +62,8 @@ const Nav = () => {
                                                         <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
-                                            </a>
-                                            <a href="" className="text-muted text-decoration-none">
+                                            </Link>
+                                            <Link to="/" className="text-muted text-decoration-none">
                                                 <div className="row mb-2">
                                                     <div className="col">
                                                         <img
@@ -75,8 +76,8 @@ const Nav = () => {
                                                         <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
-                                            </a>
-                                            <a href="" className="text-muted text-decoration-none">
+                                            </Link>
+                                            <Link to="/" className="text-muted text-decoration-none">
                                                 <div className="row mb-2">
                                                     <div className="col">
                                                         <img
@@ -89,8 +90,8 @@ const Nav = () => {
                                                         <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
-                                            </a>
-                                            <a href="" className="text-muted text-decoration-none">
+                                            </Link>
+                                            <Link to="/" className="text-muted text-decoration-none">
                                                 <div className="row mb-2">
                                                     <div className="col">
                                                         <img
@@ -103,13 +104,13 @@ const Nav = () => {
                                                         <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="col-md-8 col-lg-4 mb-4 mb-lg-0">
                                             <p className="text-uppercase font-weight-bold cd">
                                                 Brand Name
                                             </p>
-                                            <a href="" className="text-muted text-decoration-none">
+                                            <Link to="/" className="text-muted text-decoration-none">
                                                 <div className="row mb-2">
                                                     <div className="col">
                                                         <img
@@ -122,8 +123,8 @@ const Nav = () => {
                                                         <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
-                                            </a>
-                                            <a href="" className="text-muted text-decoration-none">
+                                            </Link>
+                                            <Link to="/" className="text-muted text-decoration-none">
                                                 <div className="row mb-2">
                                                     <div className="col">
                                                         <img
@@ -136,8 +137,8 @@ const Nav = () => {
                                                         <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
-                                            </a>
-                                            <a href="" className="text-muted text-decoration-none">
+                                            </Link>
+                                            <Link to="/" className="text-muted text-decoration-none">
                                                 <div className="row mb-2">
                                                     <div className="col">
                                                         <img
@@ -150,8 +151,8 @@ const Nav = () => {
                                                         <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
-                                            </a>
-                                            <a href="" className="text-muted text-decoration-none">
+                                            </Link>
+                                            <Link to="/" className="text-muted text-decoration-none">
                                                 <div className="row mb-2">
                                                     <div className="col">
                                                         <img
@@ -164,13 +165,13 @@ const Nav = () => {
                                                         <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
-                                            </a>
+                                            </Link>
                                         </div>
                                         <div className="col-md-8 col-lg-4 mb-4 mb-lg-0">
                                             <p className="text-uppercase font-weight-bold cd">
                                                 Brand Name
                                             </p>
-                                            <a href="" className="text-muted text-decoration-none">
+                                            <Link to="/" className="text-muted text-decoration-none">
                                                 <div className="row mb-2">
                                                     <div className="col">
                                                         <img
@@ -183,8 +184,8 @@ const Nav = () => {
                                                         <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
-                                            </a>
-                                            <a href="" className="text-muted text-decoration-none">
+                                            </Link>
+                                            <Link to="/" className="text-muted text-decoration-none">
                                                 <div className="row mb-2">
                                                     <div className="col">
                                                         <img
@@ -197,8 +198,8 @@ const Nav = () => {
                                                         <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
-                                            </a>
-                                            <a href="" className="text-muted text-decoration-none">
+                                            </Link>
+                                            <Link to="/" className="text-muted text-decoration-none">
                                                 <div className="row mb-2">
                                                     <div className="col">
                                                         <img
@@ -211,8 +212,8 @@ const Nav = () => {
                                                         <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
-                                            </a>
-                                            <a href="" className="text-muted text-decoration-none">
+                                            </Link>
+                                            <Link to="/" className="text-muted text-decoration-none">
                                                 <div className="row mb-2">
                                                     <div className="col">
                                                         <img
@@ -225,20 +226,20 @@ const Nav = () => {
                                                         <span className="mb-2 b ">Shoes</span>
                                                     </div>
                                                 </div>
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </li>
                         <li class="nav-item b">
-                            <a class="nav-link text-dark " aria-current="page" href="#">Home</a>
+                            <Link class="nav-link text-dark " aria-current="page" to="/about">About Our Product</Link>
                         </li>
                         <li class="nav-item b">
-                            <a class="nav-link text-dark" aria-current="page" href="#">About</a>
+                            <Link class="nav-link text-dark" aria-current="page" href="#">About</Link>
                         </li>
                         <li class="nav-item b">
-                            <a class="nav-link text-dark" aria-current="page" href="#">Contact</a>
+                            <Link class="nav-link text-dark" aria-current="page" href="#">Contact</Link>
                         </li>
                     </ul>
                 </div>

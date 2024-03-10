@@ -94,7 +94,7 @@ function Footer() {
                         </div>
 
                     </section>
-                    <section className="mb-4 mt-5 d-flex flex-row ">
+                    <section className="mb-4 mt-5 d-flex flex-row icon">
 
                         <a className="btn m-1 border border-dark" href="#!" role="button"
                         ><FontAwesomeIcon icon={faFacebookF} style={{ color: "blue" }} /></a>
