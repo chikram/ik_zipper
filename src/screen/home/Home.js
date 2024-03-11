@@ -11,13 +11,13 @@ const Home = () => {
       <div className="container my-5">
         <div className="row center mx-auto">
           <div className="col-8 col-md-6 col-xl-4 col-lg-4  py-2">
-            <Card />
+            <Card title="Our Product" pic="shoe1.jpg" body="Some quick example text to build on the card title and make up the bulk of the card's content." btntxt="Order Now" />
           </div>
           <div className="col-8 col-md-6 col-xl-4 col-lg-4  py-2">
-            <Card />
+            <Card title="Trendind Now" pic="shoes2.jpg" body="Some quick example text to build on the card title and make up the bulk of the card's content." btntxt="Order Now" />
           </div>
           <div className="col-8 col-md-6 col-xl-4 col-lg-4  py-2">
-            <Card />
+            <Card title="Careers" pic="sho.PNG" body="Some quick example text to build on the card title and make up the bulk of the card's content." btntxt="Order Now" />
           </div>
         </div>
       </div>
